@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build: .
+    container_name: revendas-frontend
+    restart: unless-stopped
+    ports:
+      - "9000:80"
